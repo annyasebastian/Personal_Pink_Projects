@@ -1,4 +1,5 @@
 # Python code​​​​​​‌‌​​​‌​​​​​‌​​‌​‌​‌‌​‌​‌​ to return factorial of a number
+# Focus : Recursive Function
 
 def factorial(num):
 # Check if num is a positive integer or 0
