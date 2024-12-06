@@ -1,5 +1,6 @@
 
 # Which Flower Are You? Quiz
+# Focus on : Dictionary 
 # Set of Questions
 # A dictionary with an options list in it
 
