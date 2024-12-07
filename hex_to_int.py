@@ -13,12 +13,11 @@ def hexToDec(hexNum):
     # CAB -> (C*256)+(A*16)+(B*1)
     # hexNum = xyz -> (x*256)+(y*16)+(z*1)
     
-    num_str = hexNum
 
     if len(hexNum) == 1:
         if hexNum[0] not in hexNumbers:
             return None
-        dec = (hexNumbers[num_str[0]]*1)
+        dec = (hexNumbers[hexNum[0]]*1)
         return dec
 
     elif len(num_str) == 2:
@@ -26,7 +25,7 @@ def hexToDec(hexNum):
             return None
         if hexNum[1] not in hexNumbers:
             return None
-        dec = (hexNumbers[num_str[0]]*16) + (hexNumbers[num_str[1]]*1)
+        dec = (hexNumbers[hexNum[0]]*16) + (hexNumbers[hexNum[1]]*1)
         return dec
 
     elif len(num_str) == 3:
@@ -36,7 +35,7 @@ def hexToDec(hexNum):
             return None
         if hexNum[2] not in hexNumbers:
             return None
-        dec = (hexNumbers[num_str[0]]*256) + (hexNumbers[num_str[1]]*16) + (hexNumbers[num_str[2]]*1)
+        dec = (hexNumbers[hexNum[0]]*256) + (hexNumbers[hexNum[1]]*16) + (hexNumbers[hexNum[2]]*1)
         return dec 
 
 
